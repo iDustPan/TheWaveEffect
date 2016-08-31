@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79503EB91D75822F0040E63D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79503EB81D75822F0040E63D /* AppDelegate.swift */; };
+		79503EBB1D7582300040E63D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79503EBA1D7582300040E63D /* ViewController.swift */; };
+		79503EBE1D7582300040E63D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79503EBC1D7582300040E63D /* Main.storyboard */; };
+		79503EC01D7582300040E63D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79503EBF1D7582300040E63D /* Assets.xcassets */; };
+		79503EC31D7582300040E63D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79503EC11D7582300040E63D /* LaunchScreen.storyboard */; };
+		79503ECB1D7583B20040E63D /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79503ECA1D7583B20040E63D /* WaveView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		79503EB51D75822F0040E63D /* 波浪效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "波浪效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79503EB81D75822F0040E63D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79503EBA1D7582300040E63D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79503EBD1D7582300040E63D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79503EBF1D7582300040E63D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79503EC21D7582300040E63D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79503EC41D7582300040E63D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79503ECA1D7583B20040E63D /* WaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79503EB21D75822F0040E63D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79503EAC1D75822F0040E63D = {
+			isa = PBXGroup;
+			children = (
+				79503EB71D75822F0040E63D /* 波浪效果 */,
+				79503EB61D75822F0040E63D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79503EB61D75822F0040E63D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79503EB51D75822F0040E63D /* 波浪效果.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79503EB71D75822F0040E63D /* 波浪效果 */ = {
+			isa = PBXGroup;
+			children = (
+				79503EB81D75822F0040E63D /* AppDelegate.swift */,
+				79503EBA1D7582300040E63D /* ViewController.swift */,
+				79503ECA1D7583B20040E63D /* WaveView.swift */,
+				79503EBC1D7582300040E63D /* Main.storyboard */,
+				79503EBF1D7582300040E63D /* Assets.xcassets */,
+				79503EC11D7582300040E63D /* LaunchScreen.storyboard */,
+				79503EC41D7582300040E63D /* Info.plist */,
+			);
+			path = "波浪效果";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79503EB41D75822F0040E63D /* 波浪效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79503EC71D7582300040E63D /* Build configuration list for PBXNativeTarget "波浪效果" */;
+			buildPhases = (
+				79503EB11D75822F0040E63D /* Sources */,
+				79503EB21D75822F0040E63D /* Frameworks */,
+				79503EB31D75822F0040E63D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "波浪效果";
+			productName = "波浪效果";
+			productReference = 79503EB51D75822F0040E63D /* 波浪效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79503EAD1D75822F0040E63D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = iDustpan;
+				TargetAttributes = {
+					79503EB41D75822F0040E63D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 79503EB01D75822F0040E63D /* Build configuration list for PBXProject "波浪效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79503EAC1D75822F0040E63D;
+			productRefGroup = 79503EB61D75822F0040E63D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79503EB41D75822F0040E63D /* 波浪效果 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79503EB31D75822F0040E63D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79503EC31D7582300040E63D /* LaunchScreen.storyboard in Resources */,
+				79503EC01D7582300040E63D /* Assets.xcassets in Resources */,
+				79503EBE1D7582300040E63D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79503EB11D75822F0040E63D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79503EBB1D7582300040E63D /* ViewController.swift in Sources */,
+				79503ECB1D7583B20040E63D /* WaveView.swift in Sources */,
+				79503EB91D75822F0040E63D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79503EBC1D7582300040E63D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79503EBD1D7582300040E63D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79503EC11D7582300040E63D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79503EC21D7582300040E63D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79503EC51D7582300040E63D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79503EC61D7582300040E63D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79503EC81D7582300040E63D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "波浪效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iDustPan.com.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79503EC91D7582300040E63D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "波浪效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iDustPan.com.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79503EB01D75822F0040E63D /* Build configuration list for PBXProject "波浪效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79503EC51D7582300040E63D /* Debug */,
+				79503EC61D7582300040E63D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79503EC71D7582300040E63D /* Build configuration list for PBXNativeTarget "波浪效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79503EC81D7582300040E63D /* Debug */,
+				79503EC91D7582300040E63D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79503EAD1D75822F0040E63D /* Project object */;
+}
